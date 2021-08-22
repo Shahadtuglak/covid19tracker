@@ -1,0 +1,41 @@
+body {
+  font-family:serif;
+  background-color: whitesmoke !important;
+}
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  color: red;
+}
+
+
+
+/* Media Queries */
+
+/* Small Screen / Mobile */
+@media (max-width: 768px) {
+  .table{
+    width: 100%;
+  }
+  
+
+}
+
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .table{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* Desktop Screen */
+@media (min-width: 1024px) {
+ .table{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+}
